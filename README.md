@@ -156,7 +156,7 @@ yarn add vue3-lottie@latest
 import { Vue3Lottie } from 'vue3-lottie'
 
 export default defineNuxtPlugin((nuxtApp) => {
-  nuxtApp.vueApp.component('Vue3Lottie')
+  nuxtApp.vueApp.component('Vue3Lottie', Vue3Lottie)
 })
 ```
 
